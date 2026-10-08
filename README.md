@@ -27,13 +27,6 @@ Frontend and backend run together as one Next.js app.
    ```
 5. Open http://localhost:3000
 
-## Deploy (Vercel)
-
-1. Push this repo to GitHub.
-2. Import it at https://vercel.com/new.
-3. Add `GROQ_API_KEY` under Settings > Environment Variables.
-4. Deploy.
-
 ## Notes
 
 - Only static HTML is scraped (no JavaScript rendering).
