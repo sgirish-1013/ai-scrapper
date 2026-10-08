@@ -16,7 +16,7 @@ Frontend and backend run together as one Next.js app.
    ```bash
    npm install
    ```
-3. Create a `.env.local` file in the **project root** (same folder as `package.json`):
+3. Add your API key in the .env file:
    ```
    GROQ_API_KEY=your_key_here
    ```
@@ -26,13 +26,6 @@ Frontend and backend run together as one Next.js app.
    npm run dev
    ```
 5. Open http://localhost:3000
-
-## Deploy (Vercel)
-
-1. Push this repo to GitHub.
-2. Import it at https://vercel.com/new.
-3. Add `GROQ_API_KEY` under Settings > Environment Variables.
-4. Deploy.
 
 ## Notes
 
