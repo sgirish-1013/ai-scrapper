@@ -16,7 +16,7 @@ Frontend and backend run together as one Next.js app.
    ```bash
    npm install
    ```
-3. Create a `.env.local` file in the **project root** (same folder as `package.json`):
+3. Add your API key in the .env file:
    ```
    GROQ_API_KEY=your_key_here
    ```
